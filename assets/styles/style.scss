@@ -1,0 +1,68 @@
+.container {
+    margin: 0px 0px 0px 24px;
+}
+
+.bg {
+    min-height: 100%;
+    min-width: 100%;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -100;
+}
+
+.bg-vid {
+    z-index: -1;
+    min-height: 100%;
+    min-width: 100%;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.sensors_bar {
+    margin: 24px 0px 0px 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.controllers-bar {
+    margin-top: 65vh;
+    left: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.sensor,
+.controller {
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 24px 0px 0px;
+    div:not(:first-child) {
+        margin: 6px 0px 0px 0px;
+    }
+    a {
+        margin: 6px 0px 0px 0px;
+    }
+}
+
+.shadowed {
+    -webkit-filter: drop-shadow(2px 2px 2px #222);
+    filter: drop-shadow(2px 2px 2px #222);
+}
+
+.logo {
+    width: 128px;
+    height: auto;
+    position: absolute;
+    top: 3vh;
+    left: 86vw;
+}
