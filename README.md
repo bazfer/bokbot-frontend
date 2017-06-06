@@ -1,5 +1,5 @@
 # bokbot-frontend
-Front-end developed in React during the ATX Hack for Change hackathon for Bokbot, a smart chicken coop. Check out the open-source project at http://bokbot.org/.
+Front-end developed in React during the 2017 ATX Hack for Change hackathon for Bokbot, a smart chicken coop. Check out the open-source project at http://bokbot.org/.
 
 ## Installation
 Run 'npm install' before you try out the interface.
